@@ -1,4 +1,4 @@
-package com.example.helpdesk;
+package com.example.helpdesk.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
