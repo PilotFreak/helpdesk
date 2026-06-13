@@ -13,8 +13,12 @@
     <div class="container">
         <a class="navbar-brand" th:href="@{/}">Help Desk</a>
         <div class="navbar-nav">
-            <a class="nav-link" th:href="@{/tickets}">Заявки</a>
-            <a class="nav-link" th:href="@{/tickets/new}">Создать заявку</a>
+            <a th:href="@{/admin/tickets}" class="btn btn-primary">
+                Перейти в админ-панель
+            </a>
+            <a th:href="@{/tickets/new}" class="btn btn-outline-primary">
+                Создать ещё одну заявку
+            </a>
         </div>
     </div>
 </nav>
@@ -49,3 +53,4 @@
 </main>
 </body>
 </html>
+
